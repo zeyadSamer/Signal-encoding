@@ -1,4 +1,4 @@
-
+import time
 
 # note , i assumed that i have even number of ones at the beggining
 
@@ -8,17 +8,17 @@ originalData=asciFile.read()
 print("Original Data:"+originalData)
 
 datalength=len(originalData)
-print(datalength)
+
 
 output="" 
 
-print("ou"+output)
+
 zeroCounter=0
 onesCounter=0
 i=0
 while(i<datalength):
 
-    print("i:",i)
+    
  
      #zero case
     if(originalData[i]=='0'):
@@ -92,10 +92,7 @@ while(i<datalength):
   
   
     i+=1
-    print(i)
-    print(onesCounter)
-     
-
+   
 
 
    
@@ -106,8 +103,8 @@ outputFile.write(output)
 outputFile.close()
 
 
-
-      
+print("data encoded successfully in hdb3Output.txt")
+time.sleep(5)    
 
 
 

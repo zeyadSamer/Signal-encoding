@@ -1,4 +1,4 @@
-
+import time
 
 
 asciFile=open("input.txt","r")
@@ -132,6 +132,7 @@ OutputFile=open("B87SEncoded.txt","a")
 OutputFile.write(output)
 OutputFile.close()
 
-
+print("data encoded successfully in B87SEncoded.txt")
+time.sleep(5)
 
 
